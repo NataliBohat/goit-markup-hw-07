@@ -12,43 +12,44 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--Секція хедер-->
     <header class="header">
-      <nav class="container main-nav">
-        <a class="header-logo link" href="index.html" lang="ru">
-          Web<span class="header-accent link">Studio</span></a
+      <nav class="container header__nav">
+        <a class="logo link" href="index.html" lang="ru">
+          Web<span class="logo__accent link">Studio</span></a
         >
-        <ul class="site-nav list">
-          <li class="item">
-            <a class="header-link link" href="index.html">Студия</a>
+        <ul class="header__list list">
+          <li class="header__item">
+            <a class="header__link link" href="index.html">Студия</a>
           </li>
-          <li class="item">
-            <a class="header-link link current" href="portfolio.html"
+          <li class="header__item">
+            <a class="header__link link current" href="portfolio.html"
               >Портфолио</a
             >
           </li>
-          <li class="item">
+          <li class="header__item">
             <a
-              class="header-link link"
+              class="header__link link"
               href="https://github.com/NataliBohat/goit-markup-hw-01."
               >Контакты</a
             >
           </li>
         </ul>
-        <ul class="auth-nav list">
-          <li class="item">
-            <a class="header-contact link" href="mailto:info@devstudio.com">
-              <svg class="header-contact-icon" width="16" height="12">
+        <ul class="meta list">
+          <li class="meta__items">
+            <a class="meta__contact link" href="mailto:info@devstudio.com">
+              <svg class="meta__icon" width="16" height="12">
                 <use href="./img/icons.svg#icon-envelope"></use>
               </svg>
               <span lang="en">info@devstudio.com</span></a
             >
           </li>
-          <li class="item">
-            <a class="header-contact link" href="tel:+38 096 111 11 11">
-              <svg class="header-contact-icon" width="10" height="16">
+          <li class="meta__items">
+            <a class="meta__contact link" href="tel:+38 096 111 11 11">
+              <svg class="meta__icon" width="10" height="16">
                 <use href="./img/icons.svg#icon-tel"></use>
               </svg>
               <span lang="en">+38 096 111 11 11</span>
@@ -62,220 +63,220 @@
         <div class="container">
           <h1 hidden>Основна</h1>
           <!-- Rectangle-->
-          <ul class="button-item list">
-            <li class="button-hero">
-              <button type="button" class="button link">Все</button>
+          <ul class="button list">
+            <li class="button__item">
+              <button type="button" class="button__link link">Все</button>
             </li>
-            <li class="button-hero">
-              <button type="button" class="button link">Веб-сайты</button>
+            <li class="button__item">
+              <button type="button" class="button__link link">Веб-сайты</button>
             </li>
-            <li class="button-hero">
-              <button type="button" class="button link">Приложения</button>
+            <li class="button__item">
+              <button type="button" class="button__link link">Приложения</button>
             </li>
-            <li class="button-hero">
-              <button type="button" class="button link">Дизайн</button>
+            <li class="button__item">
+              <button type="button" class="button__link link">Дизайн</button>
             </li>
-            <li class="button-hero">
-              <button type="button" class="button link">Маркетинг</button>
+            <li class="button__item">
+              <button type="button" class="button__link link">Маркетинг</button>
             </li>
           </ul>
           <!--img-->
-          <ul class="feature-list list">
-            <li class="flex-element link">
-              <a class="feature-img">
-                <div class="feature-overlay">
+          <ul class="feature list">
+            <li class="feature__item">
+              <a class="feature__element link">
+                <div class="overlay">
                   <img
                   src="./img/portfolio img/teh.jpg"
                   alt="tehno"
                   width="370"
                 />
-                <div class="feature-tim">
-                  <p class="feature-upertitle">
+                <div class="overlay__tim">
+                  <p class="overlay__upertitle">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
             </div>
-                <div class="feature-title">
-                  <h2 class="title">Технокряк</h2>
-                  <p class="uppertitle">Веб-сайт</p>
+                <div class="feature__subtitle">
+                  <h2 class="feature__title">Технокряк</h2>
+                  <p class="feature__uppertitle">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="flex-element">
-              <a class="feature-img  link">
-                <div class="feature-overlay">
+            <li class="feature__item">
+              <a class="feature__element  link">
+                <div class="overlay">
                   <img
                     src="./img/portfolio img/poster.jpg"
                     alt="poster"
                     width="370"
                   />
-                  <div class="feature-tim">
-                    <p class="feature-upertitle">
+                  <div class="overlay__tim">
+                    <p class="overlay__upertitle">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю получить
                       исчерпывающие сведения о компании или частном лице.
                     </p>
                   </div>
                 </div>
-                <div class="feature-title">
-                  <h2 class="title">Постер New Orlean vs Golden Star</h2>
-                  <p class="uppertitle">Дизайн</p>
+                <div class="feature__subtitle">
+                  <h2 class="feature__title">Постер New Orlean vs Golden Star</h2>
+                  <p class="feature__uppertitle">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="flex-element">
-              <a class="feature-img link">
-                <div class="feature-overlay">
+            <li class="feature__item">
+              <a class="feature__element link">
+                <div class="overlay">
                   <img
                   src="./img/portfolio img/seafood.jpg"
                   alt="seafood"
                   width="370"
                 />
-                <div class="feature-tim">
-                  <p class="feature-upertitle">
+                <div class="overlay__tim">
+                  <p class="overlay__upertitle">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
               </div>
-                <div class="feature-title">
-                  <h2 class="title">Ресторан Seafood</h2>
-                  <p class="uppertitle">Приложение</p>
+                <div class="feature__subtitle">
+                  <h2 class="feature__title">Ресторан Seafood</h2>
+                  <p class="feature__uppertitle">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="flex-element">
-              <a class="feature-img link">
-                <div class="feature-overlay">
+            <li class="feature__item link">
+              <a class="feature__element link">
+                <div class="overlay">
                   <img
                   src="./img/portfolio img/prime.jpg"
                   alt="prime"
                   width="370"
                 />
-                <div class="feature-tim">
-                  <p class="feature-upertitle">
+                <div class="overlay__tim">
+                  <p class="overlay__upertitle">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
               </div>
-                <div class="feature-title">
-                  <h2 class="title">Проект Prime</h2>
-                  <p class="uppertitle">Маркетинг</p>
+                <div class="feature__subtitle">
+                  <h2 class="feature__title">Проект Prime</h2>
+                  <p class="feature__uppertitle">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="flex-element">
-              <a class="feature-img link">
-                <div class="feature-overlay">
+            <li class="feature__item link">
+              <a class="feature__element link">
+                <div class="overlay">
                   <img
                   src="./img/portfolio img/boxes.jpg"
                   alt="boxes"
                   width="370"
                 />
-                <div class="feature-tim">
-                  <p class="feature-upertitle">
+                <div class="overlay__tim">
+                  <p class="overlay__upertitle">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
               </div>
-               <div class="feature-title">
-                  <h2 class="title">Проект Boxes</h2>
-                  <p class="uppertitle">Приложение</p>
+               <div class="feature__subtitle">
+                  <h2 class="feature__title">Проект Boxes</h2>
+                  <p class="feature__uppertitle">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="flex-element">
-              <a class="feature-img link">
-                <div class="feature-overlay">
+            <li class="feature__item link">
+              <a class="feature__element link">
+                <div class="overlay">
                   <img
                   src="./img/portfolio img/borders.jpg"
                   alt="tehno"
                   width="370"
                 />
-                <div class="feature-tim">
-                  <p class="feature-upertitle">
+                <div class="overlay__tim">
+                  <p class="overlay__upertitle">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
               </div>
-                <div class="feature-title">
-                  <h2 class="title">Технокряк</h2>
-                  <p class="uppertitle">Веб-сайт</p>
+                <div class="feature__subtitle">
+                  <h2 class="feature__title">Технокряк</h2>
+                  <p class="feature__uppertitle">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="flex-element">
-              <a class="feature-img link">
-                <div class="feature-overlay">
+            <li class="feature__item link">
+              <a class="feature__element link">
+                <div class="overlay">
                   <img
                   src="./img/portfolio img/edition.jpg"
                   alt="borders"
                   width="370"
                 />
-                <div class="feature-tim">
-                  <p class="feature-upertitle">
+                <div class="overlay__tim">
+                  <p class="overlay__upertitle">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
               </div>
-                <div class="feature-title">
-                  <h2 class="title">Inspiration has no Borders</h2>
-                  <p class="uppertitle">Веб-сайт</p>
+                <div class="feature__subtitle">
+                  <h2 class="feature__title">Inspiration has no Borders</h2>
+                  <p class="feature__uppertitle">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="flex-element">
-              <a class="feature-img link">
-                <div class="feature-overlay">
+            <li class="feature__item link">
+              <a class="feature__element link">
+                <div class="overlay">
                   <img
                   src="./img/portfolio img/lab.jpg"
                   alt="edition"
                   width="370"
                 />
-                <div class="feature-tim">
-                  <p class="feature-upertitle">
+                <div class="overlay__tim">
+                  <p class="overlay__upertitle">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
               </div>
-                <div class="feature-title">
-                  <h2 class="title">Издание Limited Edition</h2>
-                  <p class="uppertitle">Дизайн</p>
+                <div class="feature__subtitle">
+                  <h2 class="feature__title">Издание Limited Edition</h2>
+                  <p class="feature__uppertitle">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="flex-element">
-              <a class="feature-img link">
-                <div class="feature-overlay"> 
+            <li class="feature__item link">
+              <a class="feature__element link">
+                <div class="overlay"> 
                   <img
                   src="./img/portfolio img/busines.jpg"
                   alt="lab"
                   width="370"
                 />
-                <div class="feature-tim">
-                  <p class="feature-upertitle">
+                <div class="overlay__tim">
+                  <p class="overlay__upertitle">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
               </div>
-                <div class="feature-title">
-                  <h2 class="title">Проект LAB</h2>
-                  <p class="uppertitle">Маркетинг</p>
+                <div class="feature__subtitle">
+                  <h2 class="feature__title">Проект LAB</h2>
+                  <p class="feature__uppertitle">Маркетинг</p>
                 </div>
               </a>
             </li>
@@ -284,107 +285,107 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container footer-container">
-        <div class="footer-container-logo">
+      <div class="container footer__container">
+        <div class="footer__logo">
           <a
-            class="header-logo link"
+            class="logo link"
             href="https://github.com/NataliBohat/goit-markup-hw-01."
             lang="ru"
-            >Web<span class="footer-accen link">Studio</span></a
+            >Web<span class="logo__thumb link">Studio</span></a
           >
           <address>
-            <ul class="footer-item">
-              <li class="footer-list list">
+            <ul class="footer-list">
+              <li class="footer-list__item list">
                 <a
-                  class="footer-nav link"
+                  class="footer-list__nav link"
                   href="https://goo.gl/maps/piqngm7oDQpEDh6u6"
                   target="_blank"
                   rel="noopener noreferrer"
                   >г.Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="footer-list list">
-                <a class="footer-contact link" href="mailto:info@devstudio.com"
+              <li class="footer-list__item list">
+                <a class="footer-list__contact link" href="mailto:info@devstudio.com"
                   >info@example.com</a
                 >
               </li>
-              <li class="footer-list list">
-                <a class="footer-contact link" href="tel:+38 096 111 11 11"
+              <li class="footer-list__item list">
+                <a class="footer-list__contact link" href="tel:+38 096 111 11 11"
                   >+38 096 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="footer-container-logo">
-          <span class="footer-title"><strong>присоединяйтесь</strong></span>
-          <ul class="footer-main list">
-            <li class="footer-main-item">
+        <div class="sidebar">
+          <span class="sidebar__title"><strong>присоединяйтесь</strong></span>
+          <ul class="sidebar__list list">
+            <li class="sidebar__item">
               <a
-                class="footer-media link"
+                class="sidebar__media link"
                 href=""
                 target="_blank"
                 rel="noopeer noreferent"
                 aria-label="instagram"
               >
-                <svg class="footert-media-icon" width="20" height="20">
+                <svg class="sidebar__icon" width="20" height="20">
                   <use href="./img/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-main-item">
+            <li class="sidebar__item">
               <a
-                class="footer-media link"
+                class="sidebar__media link"
                 href=""
                 target="_blank"
                 rel="noopeer noreferent"
                 aria-label="twitter"
               >
-                <svg class="footert-media-icon" width="20" height="20">
+                <svg class="sidebar__icon" width="20" height="20">
                   <use href="./img/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-main-item">
+            <li class="sidebar__item">
               <a
-                class="footer-media link"
+                class="sidebar__media link"
                 href=""
                 target="_blank"
                 rel="noopeer noreferent"
                 aria-label="facebook">
-                <svg class="footert-media-icon" width="20" height="20">
+                <svg class="sidebar__icon" width="20" height="20">
                   <use href="./img/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-main-item">
+            <li class="sidebar__item">
               <a
-                class="footer-media link"
+                class="sidebar__media link"
                 href=""
                 target="_blank"
                 rel="noopeer noreferent"
                 aria-label="linkedin">
-                <svg class="footert-media-icon" width="20" height="20">
+                <svg class="sidebar__icon" width="20" height="20">
                   <use href="./img/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <form class="form-footer">
-          <b class="form-footer-title">Подпишитесь на рассылку</b>
-            <div class="footer-field">
-                <label for="mail">
+        <form class="footer-form">
+          <b class="footer-form__title">Подпишитесь на рассылку</b>
+            <div class="footer-form__field">
+                <label>
                   <input
-                  class="footer-input"
+                  class="footer-form__input"
                     type="email"
                     name="mail"
                     id="mail"
                     placeholder="E-mail"
                   />
                 </label>
-                <button class="footer-buttom" type="submit">Подписаться
-                  <svg class="footer-form-icon" width="24" height="24">
+                <button class="footer-form__btm" type="submit">Подписаться
+                  <svg width="24" height="24">
                     <use href="./img/symbol-defs.svg#icon-fly"></use>
                   </svg>
                 </button>
