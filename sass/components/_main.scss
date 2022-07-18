@@ -5,13 +5,7 @@
     }
   
   .main__title {
-    margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-  
-    color: var(--primary-text-color);
+    @extend .title;
   }
   .main__list {
     display: flex;
@@ -45,17 +39,11 @@
   }
   
   .main__action {
+    @extend .subtitle;
     position: absolute;
     bottom: 27px;
     left: 82px;;
     display: flex;
-  
-   font-weight: 700;
-   font-size: 14px;
-   line-height: 1.14;
-   text-align: center;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
   
    color: var(--slogan-text-color);
   }

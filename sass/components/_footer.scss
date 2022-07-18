@@ -41,12 +41,8 @@
   
   /*присоединяйтесь*/
   
-  
   .sidebar__title {
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    @extend .subtitle;
     margin-bottom: 20px;
   
     color: var(--slogan-text-color) ;
@@ -59,19 +55,10 @@
     margin-right: 10px;
   }
   .sidebar__media {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-  
+    @extend .media;
     fill:var(--slogan-text-color);
     background-color: rgba(255, 255, 255, 0.1);
   
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
     &:hover,
     &:focus {
     background-color: var(--acsent-text-color);
@@ -83,12 +70,8 @@
     margin-left: auto;
   }
   .footer-form__title {
+    @extend .subtitle;
     display: inline-block;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     margin-bottom: 20px;
     
     color: var(--slogan-text-color);
@@ -114,27 +97,15 @@
   }
   
   .footer-form__btm {
+    @extend .btn;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 29px;
-    border: none;
-    border-radius: 4px;
-  
+   
     width: 200px;
     height: 50px; 
-    
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.9;
-    letter-spacing: 0.06em;
-    
-    cursor: pointer;
-  
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
-    color: var(--slogan-text-color);
-    background-color: var(--title-hover-color);
     
     &:hover,
     &:focus {
